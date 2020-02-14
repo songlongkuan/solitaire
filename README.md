@@ -6,8 +6,9 @@
 
 遂弃之。
 
-<img src="images/WechatIMG21.jpeg" style="zoom:25%;" /><img src="images/WechatIMG18.jpeg" style="zoom:25%;" /><img src="images/WechatIMG16.jpeg" style="zoom:25%;" />
-
- <img src="images/WechatIMG21.jpeg" style="zoom: 25%;" />
 
 
+<img src="images/WechatIMG21.jpeg" width=300;/>
+<img src="images/WechatIMG18.jpeg" width=300;/>
+<img src="images/WechatIMG16.jpeg" width=300;/>
+<img src="images/WechatIMG17.jpeg" width=300;/>
