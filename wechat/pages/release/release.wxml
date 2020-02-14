@@ -1,0 +1,19 @@
+<form bindsubmit="formSubmit">
+
+	<text class="textlabel">输入接龙简介：</text>
+	<textarea class="inputsynopsis" name="synopsis" placeholder="{{synopsisMsg}}"></textarea>
+
+	<view>
+		<input class="cutoffnumber" type="number" name="person_number" placeholder="截止人数（默认不限制）" />
+		<view class="line"></view>
+	</view>
+
+	<view class="tui-picker-content">
+		<picker mode="multiSelector" value="{{dateTime1}}" bindchange="changeDateTime1" bindcolumnchange="changeDateTimeColumn1" range="{{dateTimeArray1}}">
+			<view class="tui-picker-detail" style="font-size: 30rpx;">
+				截止时间: {{dateStr}}
+			</view>
+		</picker>
+	</view>
+	<button class='goodbutton' hover-class="hover" formType="submit">发布接龙</button>
+</form>

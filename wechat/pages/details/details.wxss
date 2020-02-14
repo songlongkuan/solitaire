@@ -1,0 +1,150 @@
+.layout_vertical {
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: column;
+}
+
+.layout_horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.line {
+  background-color: #e0e1e3;
+  height: 1rpx;
+  width: auto;
+}
+.header_btns{
+  display: flex;
+  align-items: center;
+}
+page .button_share {
+  background-color: #eb722b;
+  border: 1px solid #eb722b;
+  border-radius: 25rpx;
+  font-size: 27rpx;
+  color: #fff;
+  display: block;
+  width: 200rpx;
+  /* float: right; */
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+
+.userAvatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 20rpx;
+  border-radius: 10rpx;
+}
+
+.userNikename {
+  font-size: 30rpx;
+}
+
+.postCreateDate {
+  margin-top: 15rpx;
+  font-size: 27rpx;
+  color: #aeafb0;
+}
+
+.postDesc {
+  margin: 30rpx;
+  font-size: 28rpx;
+}
+
+page .editButon {
+  margin-top: 35rpx;
+  margin-right: 20rpx;
+  width: fit-content;
+  float: right;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  margin-bottom: 35rpx;
+
+}
+
+.postin_content_view {
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  border: 1px solid #e0e1e3;
+  margin-left: 20rpx;
+  width: 100%;
+}
+
+page .submit_postin {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  font-size: 25rpx;
+  background-color: #1ab84e;
+  color: #fff;
+  width: 170rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  text-align: center;
+}
+
+/* 按下变颜色 */
+page .submit_postin_hover {
+  background: #2e9c53;
+}
+
+.postin_content {
+  font-size: 25rpx;
+  margin-left: 10rpx;
+  width: 100%;
+}
+
+.item_order {
+  margin-left: 10rpx;
+  font-size: 25rpx;
+  color: #aeafb0;
+  width: 30rpx;
+}
+
+.item_avatar {
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 10rpx;
+
+}
+
+.item_nikename {
+  font-size: 23rpx;
+}
+
+.item_content {
+  font-size: 23rpx;
+  color: #aeafb0;
+}
+
+
+.itemPostStateEnd {
+
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  stroke-width: 1rpx;
+  font-size: 25rpx;
+  color: #b37373;
+  border: 1px solid #b37373;
+  border-radius: 10rpx;
+  padding: 10rpx;
+
+  float: left;
+}
+
+.itemPostStateIn {
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  stroke-width: 1rpx;
+  font-size: 25rpx;
+  color: #1ab84e;
+  border: 1px solid #1ab84e;
+  border-radius: 10rpx;
+  padding: 10rpx;
+
+}

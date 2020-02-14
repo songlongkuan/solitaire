@@ -1,0 +1,42 @@
+.flex-wrp {
+  flex-direction:column;
+  display: flex;
+}
+
+.konglong {
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.releaseButton {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+
+/* border-radius: 98rpx;是控制按钮边变圆 */
+.goodbutton {
+  margin-left: 5%;
+  /* bottom: 0; */
+  width: 90%;
+  background-color: rgb(81, 225, 187);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+
+/* 按下变颜色 */
+.hover {
+  background: rgb(102, 212, 194);
+}
+.releaseButton {
+  width: 100%;
+  border-radius: 98rpx;
+}
+
+.bottomview {
+  bottom: 0;
+  /* position:fixed;  */
+  margin: 30rpx;
+  align-items: flex-end;
+}

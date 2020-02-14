@@ -1,0 +1,69 @@
+<view class="layout_vertical">
+	<view style="background-color: #e9ebf0; height: 30rpx;"></view>
+	<view class="layout_vertical">
+
+		<view class="header_btns">
+			<text wx:if="{{!details.postModel.postCloseJoin}}" class="itemPostStateIn">接龙中</text>
+      <text wx:if="{{details.postModel.postCloseJoin}}" class="itemPostStateEnd">已截止</text>
+    
+			<button class="button_share" open-type="share">分享接龙</button>
+		</view>
+		<view class="line" />
+		<view class="layout_horizontal" style=" margin-top: 20rpx;">
+			<image class="userAvatar" src="{{details.userModel.wechatAvatar}}"></image>
+
+			<view class="layout_vertical" style="margin-left: 20rpx;">
+				<text class="userNikename">{{details.userModel.nikeName}}</text>
+				<text class="postCreateDate">发起时间：{{details.postModel.createDate}}</text>
+			</view>
+		</view>
+
+		<view style="  height: 20rpx;"> </view>
+		<view class="line" />
+
+		<text class="postDesc">{{details.postModel.postDesc}}</text>
+		<view class="line" />
+		<view class="item-right">
+			<button class="editButon" bindtap="showActionSheet">操作</button>
+		</view>
+
+	</view>
+	<view style="background-color: #e9ebf0; height: 30rpx;"></view>
+
+	<view style="height: 30rpx;"> </view>
+	<text style="margin-left: 20rpx; font-size: 27rpx; color: #aeafb0;">截止时间：{{details.postModel.postCloseTime}}</text>
+	<text wx:if="{{details.postModel.postClosePernum != 0}}" style="margin-left: 20rpx; font-size: 27rpx; color: #aeafb0;">截止人数：{{details.postModel.postClosePernum}} 人</text>
+		<text wx:if="{{details.postModel.postClosePernum == 0}}" style="margin-left: 20rpx; font-size: 27rpx; color: #aeafb0;">截止人数：不限</text>
+		
+	<view style="  height: 20rpx;"> </view>
+	<view class="line" />
+
+	<form bindsubmit="submitPostIn">
+		<view class="layout_horizontal">
+			<view class="postin_content_view">
+				<input class="postin_content" name="postin_content" placeholder="+1" value="{{details.postInContent}}"></input>
+			</view>
+
+			<button class="submit_postin" hover-class="submit_postin_hover" form-type="submit">{{subbuttontitle}}</button>
+		</view>
+	</form>
+	<view wx:for="{{postin}}" wx:for-item="item">
+		<view class="layout_horizontal" style="margin-top: 20rpx; margin-bottom: 20rpx;">
+
+			<text class="item_order">{{item.postInOrder}}</text>
+
+			<image class="item_avatar" src="{{item.userAvatar}}"></image>
+
+			<view class="layout_vertical" style=" margin-left: 20rpx;">
+				<text class="item_nikename">{{item.userNikename}}</text>
+				<text class="item_content">备注：{{item.postInContent}}</text>
+			</view>
+			<!-- <text class="itemTitle">{{item.userNikename}}</text> -->
+
+		</view>
+		<view class="line" />
+	</view>
+
+
+
+</view>

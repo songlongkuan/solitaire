@@ -1,0 +1,10 @@
+<view class="flex-wrp">
+
+	<view class="container">
+		<cover-image class="konglong" src="/pages/images/konglong.png" />
+	</view>
+
+	<view>
+		<button class='goodbutton' hover-class="hover" open-type="getUserInfo" bindgetuserinfo="userlogin">授权微信登录</button>
+	</view>
+</view>

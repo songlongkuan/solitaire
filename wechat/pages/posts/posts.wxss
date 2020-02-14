@@ -1,0 +1,51 @@
+/*纵向布局  */
+.layout_vertical {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  height: 170rpx;
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: column;
+}
+
+/*划线  */
+.line {
+  background-color: rgb(128, 128, 128);
+  height: 1rpx;
+  width: auto;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+}
+
+.itemTime {
+  font-size: 30rpx;
+  color: #808080;
+}
+
+.itemTitle {
+  font-size: 40rpx;
+  color: #000001;
+}
+
+.itemPostStateIn {
+  margin-top: 10rpx;
+  stroke-width: 1rpx;
+  font-size: 25rpx;
+  color: #1ab84e;
+  border: 1px solid #1ab84e;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  width: fit-content;
+}
+
+.itemPostStateEnd {
+  margin-top: 10rpx;
+  stroke-width: 1rpx;
+  font-size: 25rpx;
+  color: #b37373;
+  border: 1px solid #b37373;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  width: fit-content;
+}

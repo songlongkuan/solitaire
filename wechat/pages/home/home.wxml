@@ -1,0 +1,19 @@
+
+<view class="flex-wrp">
+
+	<view class="container">
+		<cover-image class="konglong" src="/pages/images/konglong.png" />
+	</view>
+
+	<view>
+		<button class='goodbutton' hover-class="hover" bindtap="buttonrelease">发布接龙</button>
+	</view>
+	<view style="flex-direction: row; display: flex; margin-left: 5%; margin-right: 5%; margin-top: 30rpx;">
+		<button class="releaseButton" bindtap="mypost">我发布的</button>
+		<button class="releaseButton" bindtap="inpost">我参与的</button>
+</view>
+	<view style="flex-direction: row; display: flex; margin-left: 5%; margin-right: 5%; margin-top: 30rpx;">
+		<button class="releaseButton" bindtap="help">帮助手册</button>
+		<button class="releaseButton" open-type="share">分享好友</button>
+</view>
+</view>

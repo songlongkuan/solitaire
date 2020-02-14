@@ -1,0 +1,39 @@
+@import '/app.wxss';
+
+.textlabel {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.inputsynopsis {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  border: 1px solid #000000; 
+  border-radius: 5px;  
+  width: auto;
+  font-size: 30rpx;
+}
+
+.tui-picker-content {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.cutoffnumber {
+  margin-top: 20rpx;
+  margin-left: 26rpx;
+  font-size: 30rpx;
+}
+.line{
+  margin: 0 auto;
+  height: 1px;
+  margin-left: 26rpx;
+  margin-right: 20rpx;
+  background-color: #D8D8D8;
+}
+
+
+.goodbutton{
+  margin-top: 50rpx;
+}

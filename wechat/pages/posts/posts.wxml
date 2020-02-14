@@ -1,0 +1,12 @@
+<view>
+	<view style="background-color: #e9ebf0; height: 30rpx;"></view>
+	<view wx:for="{{posts}}" wx:for-index="idx" wx:for-item="item">
+		<view class="layout_vertical" catchtap="itemOnClick" data-bean='{{item}}'>
+			<text class="itemTitle">{{item.postDesc}}</text>
+			<text class="itemTime">发起时间: {{item.createDate}}</text>
+			<text wx:if="{{item.postCloseJoin}}" class="itemPostStateEnd">已截止</text>
+			<text wx:if="{{!item.postCloseJoin}}" class="itemPostStateIn">接龙中</text>
+		</view>
+		<view class="line" />
+	</view>
+</view>
