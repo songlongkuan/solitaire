@@ -28,7 +28,7 @@
         <mybatisplus.version>3.3.1</mybatisplus.version>
         <mybatisplus-generator.version>3.3.1</mybatisplus-generator.version>
         <okhttp.version>4.3.1</okhttp.version>
-        <bcprov.version>1.64</bcprov.version>
+        <bcprov.version>1.67</bcprov.version>
         <aliyun.oss.version>3.8.1</aliyun.oss.version>
     </properties>
 
